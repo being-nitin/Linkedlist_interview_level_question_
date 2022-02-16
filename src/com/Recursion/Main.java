@@ -9,8 +9,10 @@ public class Main {
         list.insertFirst(9);
         list.insertFirst(10);
         list.insertFirst(11);
+        // will display the linkedlist before insertion.
         list.display();
         list.insertRec(88,3);
+        // will display the linkedlist after insertion.
         list.display();
     }
 }
